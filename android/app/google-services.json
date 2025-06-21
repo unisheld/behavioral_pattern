@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "314973879101",
+    "project_id": "behavioral-pattern",
+    "storage_bucket": "behavioral-pattern.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314973879101:android:fbadb18aa72e087b6ba354",
+        "android_client_info": {
+          "package_name": "com.example.behavioral_pattern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGoJSQbLJSWz1cmogWFpKCO96ToaP90aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314973879101:android:7eec64294c49dbc16ba354",
+        "android_client_info": {
+          "package_name": "com.example.pattern_structural_task1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGoJSQbLJSWz1cmogWFpKCO96ToaP90aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

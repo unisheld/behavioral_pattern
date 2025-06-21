@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "title": "Настройки",
+    "select_theme": "Выберите тему",
+    "material": "Материал",
+    "cupertino": "Купертино",
+    "custom": "Своя",
+    "select_language": "Выберите язык",
+    "logout": "Выйти",
+    "logged_out": "Вы вышли из системы."
+  },
+
+  "auth": {
+    "title": "Аутентификация",
+    "email": "Эмейл",
+    "password": "Пароль",
+    "sign_in": "Вход",
+    "register": "Регистрация"
+  },
+  "profile": {
+    "title": "Профиль",
+    "name": "Имя",
+    "birthday": "День рождения",
+    "select_birthday": "Выберите дату рождения",
+    "categories": "Категории",
+    "authors": "Авторы",
+    "save_button": "Сохранить профиль",
+    "saved": "Профиль сохранён"
+  },
+  "categories": {
+    "Action": "Экшн",
+    "Comedy": "Комедия",
+    "Drama": "Драма",
+    "Horror": "Ужасы",
+    "Sci-Fi": "Научная фантастика"
+  },
+  "authors": {
+    "Nolan": "Нолан",
+    "Spielberg": "Спилберг",
+    "Villeneuve": "Вильнёв",
+    "Scorsese": "Скорсезе"
+  }
+}

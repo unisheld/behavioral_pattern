@@ -1,0 +1,43 @@
+{
+  "settings": {
+    "title": "Settings",
+    "select_theme": "Select Theme",
+    "material": "Material",
+    "cupertino": "Cupertino",
+    "custom": "Custom",
+    "select_language": "Select Language",
+    "logout": "Log Out",
+    "logged_out": "You have been logged out."
+  },
+
+  "auth": {
+    "title": "Authentication",
+    "email": "Email",
+    "password": "Password",
+    "sign_in": "Sign In",
+    "register": "Register"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "birthday": "Birthday",
+    "select_birthday": "Select your birthday",
+    "categories": "Categories",
+    "authors": "Authors",
+    "save_button": "Save Profile",
+    "saved": "Profile saved"
+  },
+  "categories": {
+    "Action": "Action",
+    "Comedy": "Comedy",
+    "Drama": "Drama",
+    "Horror": "Horror",
+    "Sci-Fi": "Sci-Fi"
+  },
+  "authors": {
+    "Nolan": "Nolan",
+    "Spielberg": "Spielberg",
+    "Villeneuve": "Villeneuve",
+    "Scorsese": "Scorsese"
+  }
+}
