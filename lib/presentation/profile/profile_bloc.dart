@@ -22,18 +22,26 @@ class ProfileBloc {
   Future<void> _loadUserProfile() async {
     try {
       final profile = await getUserProfileUseCase.call(userId);
-      _profileController.add(profile);
+      if (!_profileController.isClosed) {
+        _profileController.add(profile);
+      }
     } catch (e) {
-      _profileController.addError(e);
+      if (!_profileController.isClosed) {
+        _profileController.addError(e);
+      }
     }
   }
 
   Future<void> updateProfile(UserProfile updatedProfile) async {
     try {
       await updateUserProfileUseCase.call(userId, updatedProfile);
-      _profileController.add(updatedProfile);
+      if (!_profileController.isClosed) {
+        _profileController.add(updatedProfile);
+      }
     } catch (e) {
-      _profileController.addError(e);
+      if (!_profileController.isClosed) {
+        _profileController.addError(e);
+      }
     }
   }
 

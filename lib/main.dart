@@ -43,8 +43,7 @@ void main() async {
           Provider.value(value: AppDI.getUserProfileUseCase),
           Provider.value(value: AppDI.updateUserProfileUseCase),
           StreamProvider<User?>.value(
-            value: FirebaseAuth.instance.authStateChanges().map((user) {
-              debugPrint('🔁 [main] FirebaseAuth state changed: $user');
+            value: FirebaseAuth.instance.authStateChanges().map((user) {             
               return user;
             }),
             initialData: null,
